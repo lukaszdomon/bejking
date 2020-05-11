@@ -5,6 +5,7 @@
     right: 0;
     background: rgba(0, 0, 0, 0.5);
     padding: 20px;
+    z-index: 1;
 }
 
 .main-navigation__logo-image {
@@ -50,7 +51,6 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    transition: 0.5s;
     transition-property: opacity, transform;
 }
 
@@ -72,7 +72,7 @@
 }
 
 @media (max-width: 991px) {
-    .main-navigation__menu--open {
+    .main-navigation__menu-open {
         opacity: 1;
         pointer-events: unset;
         transform: unset;
