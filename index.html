@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="css/main-navigation.css">
     <link rel="stylesheet" href="css/bookmark.css">
     <link rel="stylesheet" href="css/route.css">
+    <link rel="stylesheet" href="css/social-icon.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+    <link rel="stylesheet" href="css/gallery.css">
 </head>
 
 <body>
@@ -58,7 +62,7 @@
             </li>
             <li class="main-navigation__menu-item">
                 <a href="https://www.facebook.com/Piekarnia-BejKing-108043093876010" target="_blank" class="main-navigation__link">
-                    <img src="images/facebook.svg" alt="Facebook" class="main-navigation__social-icon">
+                    <img src="images/facebook.svg" alt="Facebook" class="social-icon">
                 </a>
             </li>
            </ul>
@@ -97,10 +101,84 @@
         <p class="bookmark__description">Tak wyglądają nasze wypieki</p>
     </section>
 
+    <div class="container">
+        <ul class="gallery">
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking1.jpg" alt="Bejking 1">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking2.jpg" alt="Bejking 2">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking3.jpg" alt="Bejking 3">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking4.jpg" alt="Bejking 4">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking5.jpg" alt="Bejking 5">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking6.jpg" alt="Bejking 6">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking7.jpg" alt="Bejking 7">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking8.jpg" alt="Bejking 8">
+                </div>
+            </li>
+            <li class="gallery__list-item">
+                <div class="gallery__aspect-ratio">
+                    <img class="gallery__image" src="images/gallery/bejking9.jpg" alt="Bejking 9">
+                </div>
+            </li>
+        </ul>
+    </div>
+
     <section class="bookmark bookmark--contact" id="contact">
         <h2 class="bookmark__header">Kontakt</h2>
         <p class="bookmark__description">Porozmawiaj z nami</p>
     </section>
+
+    <form class="contact-form">
+        <div class="container container--smaller">
+
+            <div class="contact-form__info">
+                <div class="contact-form__info-item">
+                    <img src="images/envelope.svg" alt="E-mail" class="contact-form__info-icon">
+                    <a href="mailto:piekarnia.bejking@gmail.com" class="contact-form__info-link">piekarnia.bejking@gmail.com</a>
+                </div>
+                <div class="contact-form__info-item">
+                    <img src="images/phone.svg" alt="Telefon" class="contact-form__info-icon">
+                    <a href="tel:123456789" class="contact-form__info-link">123456789 nr?</a>
+                </div>
+            </div>
+
+            <p class="contact-form__header">
+                Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz<br>
+                wyślij do nas wiadomość e-mail lub zadzwoń.<br>
+                Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.
+            </p>
+        </div>
+    </form>
+        
+    </div>
 
     <section class="bookmark bookmark--route" id="route">
         <h2 class="bookmark__header">Jak dojechać</h2>
@@ -108,6 +186,12 @@
     </section>
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9067.192042185938!2d19.92212227884512!3d50.033232600229034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165d31d3d605d5%3A0x50bb49def3b4869c!2sPiekarnia%20BEJKING!5e0!3m2!1spl!2spl!4v1589226851949!5m2!1spl!2spl" class="route"></iframe>
+
+    <footer class="footer">
+        <a href="https://www.facebook.com/Piekarnia-BejKing-108043093876010" target="_blank" class="footer-link">
+            <img src="images/facebook.svg" alt="Facebook" class="social-icon">Piekarnia BejKing
+        </a>
+    </footer>
 
 </body>
 </html>
